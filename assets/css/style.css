@@ -1,0 +1,151 @@
+:root {
+  --white: #fff;
+  --platinum: #e8e8e4;
+  --gray: #bec1bb;
+  --blue-bel: #a491d2;
+  --soap: #cdc3e6;
+  --pate-lavender: #d4dcff;
+  --dark: #1b1f21;
+  --outer: #444749;
+  --old: #828485;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.container_profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.container_chat {
+  background-color: var(--white);
+  width: 24rem;
+  border-right: 1px solid var(--gray);
+  display: flex;
+  flex-direction: column;
+}
+
+.container_profile {
+  display: flex;
+  border-bottom: 1px solid var(--gray);
+  padding: 10px 25px;
+}
+
+.container_profile img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.container_profile-user {
+  display: flex;
+  align-items: center;
+}
+
+.container_profile-icons {
+  color: var(--old);
+}
+
+.container_profile-icons i {
+  margin: 5px;
+}
+
+.container_general {
+  background-color: var(--platinum);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_profile-name {
+  font-size: 16px;
+  color: var(--dark);
+}
+
+.container_profile-active {
+  font-size: 10px;
+  color: var(--gray);
+}
+
+.container_button {
+  height: 150px;
+  border-bottom: 1px solid var(--gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 13rem;
+  background-color: var(--blue-bel);
+  color: var(--white);
+  padding: 10px;
+  border: none;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: var(--pate-lavender);
+}
+
+.button:active {
+  background-color: var(--old);
+}
+
+.container_users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.container_users-datos {
+  padding: 0.7rem;
+}
+
+.container_users img {
+  width: 4rem;
+  border-radius: 50%;
+  border-right: 10px;
+  border: 1px solid var(--old);
+}
+
+.container_general-box {
+  width: 34rem;
+  text-align: center;
+}
+
+.container_general img {
+  width: 300px;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 46px;
+}
+
+h5 {
+    color: var(--old);
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
